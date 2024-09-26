@@ -2,6 +2,16 @@
 
 This project automates the detection of phishing emails using heuristic methods and VirusTotal API. It automatically quarantines emails, alerts the security team, and logs incidents.
 
+#Requirements
+Flask
+imaplib
+requests
+sqlite3
+smtplib
+email
+unittest
+
+
 ## Features:
 - Email fetching via IMAP
 - Phishing detection based on keywords and malicious URLs
